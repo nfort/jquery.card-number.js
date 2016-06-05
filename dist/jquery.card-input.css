@@ -1,0 +1,63 @@
+.jquery-card-input {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jquery-card-input .jquery-card-input__prefix-card {
+    background: #fff;
+    border: 3px solid;
+    border-right: 0;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    padding: 0 0 0 10px;
+    box-sizing: content-box;
+    font-family: inherit;
+}
+
+.jquery-card-input input.jquery-card-input__input {
+    max-width: 35%;
+    width: auto;
+    border: 0;
+    font-size: 18px;
+    height: 40px;
+    line-height: 18px;
+    outline: none;
+    color: #000;
+    padding: 0 15px 0 0;
+    border: 3px solid;
+    border-left: 0;
+    border-right: 0;
+    box-sizing: content-box;
+    font-family: inherit;
+    flex: 1;
+}
+
+.jquery-card-input input.jquery-card-input__input::-webkit-input-placeholder {
+    line-height: normal;
+}
+
+.jquery-card-input .jquery-card-input__logo-partners {
+    padding: 0 5px;
+    border: 3px solid;
+    border-left: 0;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: content-box;
+    flex: 1;
+    text-align: center;
+    font-family: inherit;
+}
+
+.jquery-card-input .jquery-card-input__logo-partners img {
+    max-height: 100%;
+}
+
+.jquery-card-input.jquery-card-input--error .jquery-card-input__prefix-card,
+.jquery-card-input.jquery-card-input--error .jquery-card-input__logo-partners,
+.jquery-card-input.jquery-card-input--error .jquery-card-input__input {
+    border-color: #a94442;
+}

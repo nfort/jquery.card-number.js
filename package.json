@@ -1,0 +1,26 @@
+{
+  "name": "jquery.card-number.js",
+  "version": "1.0.0",
+  "description": "input card number with prefix and logo",
+  "main": "dist/jquery.card-input.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfort/jquery.card-number.js.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "jquery",
+    "card",
+    "card-input",
+    "with-prefix",
+    "prefix-input",
+    "input-prefix",
+    "card-input-prefix"
+  ],
+  "author": "Kirill Malyakin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfort/jquery.card-number.js/issues"
+  },
+  "homepage": "https://github.com/nfort/jquery.card-number.js#readme"
+}
