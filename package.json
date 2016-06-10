@@ -1,6 +1,6 @@
 {
   "name": "jquery.card-number.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "input card number with prefix and logo",
   "main": "dist/jquery.card-input.js",
   "repository": {
