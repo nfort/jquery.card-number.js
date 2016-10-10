@@ -1,12 +1,12 @@
-# jquery.card-number.js
 [![NPM](https://nodei.co/npm/jquery.card-number.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jquery.card-number.js/)
+
+# jquery.card-number.js
 
 flexible input card number with prefix and logo
 
 ![jquery.card-number](http://new.tinygrab.com/28d197985fdd4b7247cf59c562a34e127a0fcbc6ae.png)
 
 You can see [example in action](https://cdn.rawgit.com/nfort/jquery.card-number.js/master/example/index.html)
-
 
 ```
 $(function () {
@@ -19,3 +19,11 @@ $(function () {
     })
 })
 ```
+## Params
+| method | type | value |
+| :---: | :---: | :---: |
+| prefix | string | prefix for value |
+| placeholder | string | visible placeholder |
+| background_color | string | background color (color as hex) |
+| name | string | attribute name for input |
+| src | string | src for icon on right-side |
