@@ -1,4 +1,6 @@
 # jquery.card-number.js
+[![NPM](https://nodei.co/npm/jquery.card-number.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jquery.card-number.js/)
+
 flexible input card number with prefix and logo
 
 ![jquery.card-number](http://new.tinygrab.com/28d197985fdd4b7247cf59c562a34e127a0fcbc6ae.png)
